@@ -1,4 +1,4 @@
-jdpay2.0 demo
+jdpay2.0 Demo
 ========
 
 docker image
@@ -12,3 +12,5 @@ usage
 
 - `./start.sh`
 - http://localhost:7000
+
+
