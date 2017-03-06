@@ -1,4 +1,4 @@
-jdpay2.0
+jdpay2.0 demo
 ========
 
 docker image
