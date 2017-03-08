@@ -71,7 +71,7 @@ error_reporting(0);
 				<lable>termInfo:</lable>
 				<input type="txt" name="termInfo" value=""> <br />
 				<lable>tradeType:</lable>
-				<input type="txt" name="tradeType" value="QR"> <br />
+				<input type="txt" name="tradeType" value="GEN"> <br />
 				 <input
 					type="submit" value="京东支付" id="showlayerButton" class="btn">
 				</li>

@@ -35,10 +35,11 @@ session_start();
 		<input type="text" name="specId" value="<?php echo $_SESSION['param']['specId']?>"/><br/>
 		<input type="text" name="specName" value="<?php echo $_SESSION['param']['specName']?>"/><br/>
 		<input type="text" name="sign" value="<?php echo $_SESSION['param']['sign']?>"/><br/>
+		<input type="submit" name="提交"/>
 	</form>
 	<script>
 	function autosubmit(){
-		document.getElementById("batchForm").submit();
+		//document.getElementById("batchForm").submit();
 	}	
 	</script>
 	<?php
@@ -46,6 +47,7 @@ session_start();
 echo "<pre>";
 //echo "hehe";
 print_r($_SESSION);
+file_put_contents('/var/log/djpay2.log', json_encode($_SESSION) . "\n", FILE_APPEND);
 
 	?>
 
